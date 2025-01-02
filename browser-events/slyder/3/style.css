@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    /* box-sizing: border-box; */
+}
+
+html, body {
+    font-size: 18px;
+    font-family: sans-serif;
+    color: #222;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 30px auto;
+    background: #f1f1f1;
+    padding: 30px;
+}
+
+.slider {
+    border: 2px solid #000;
+    max-width: 80%;
+    margin: 20px auto;
+    overflow: hidden;
+}
+
+.slider-line {
+    display: flex;
+    background-color: aquamarine;
+    transition: all ease 1s;
+}
+
+.elm {
+    border: solid red;
+    transform: translate(30px, 20px) rotate(25deg);
+    width: 140px;
+    height: 60px;
+}
