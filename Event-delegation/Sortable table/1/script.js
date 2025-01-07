@@ -45,8 +45,11 @@ function sortGrid(colNum , type) {
             }
             break;
     }
-
+    rowsArray.forEach(item => {
+        console.log(item)
+    })
     rowsArray.sort(compare);
+    console.log(rowsArray)
     tbody.append(...rowsArray)
             
 }
