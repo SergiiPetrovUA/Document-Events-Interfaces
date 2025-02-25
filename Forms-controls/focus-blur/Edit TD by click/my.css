@@ -1,0 +1,15 @@
+.edit {
+    
+    width: 160px;
+    height: 92px;
+    resize: none;
+    background-color: blanchedalmond;
+    text-align: center;
+    vertical-align: middle;
+    overflow: hidden;
+    border: none;
+}
+
+.button {
+    position: fixed;
+}
